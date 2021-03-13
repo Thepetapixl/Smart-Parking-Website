@@ -1,6 +1,6 @@
 ## This file is made for easier access
 
-### Folder Name:  
+### Folder Name
 
 - FaceRecog -> Module for Face Recognition.
 - HomePage -> Module for Home Page of the website.
