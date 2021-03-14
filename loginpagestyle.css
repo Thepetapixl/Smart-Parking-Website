@@ -1,0 +1,111 @@
+html,body{
+    background-image: url('https://gopazo.com/wp-content/uploads/2019/05/Security-Guard-checklist-Underground-Garages-Checklist-1200x731.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+    
+.container{
+    height: 100%;
+    align-content: center;
+    }
+    
+.card{
+    height: 470px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.76) !important;
+    }
+
+h5{
+
+    color: white;
+    margin: 60px 0 5px;
+    text-align: center;
+	position: relative;
+
+}
+
+h5:before{
+    left: 0;
+}
+
+h5::before, h5:after{
+    content: "";
+    height: 2px;
+    width: 45%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+h5:after{
+    right: 0;
+}
+    
+.social_icon span{
+    font-size: 60px;
+    margin-left: 70px;
+    color: #ffc012;
+    }
+    
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+.card-header h3{
+    color: white;
+    }
+    
+.social_icon{
+    position: absolute;
+    left: 30px
+    }
+    
+.input-group-prepend span{
+    width: 50px;
+    background-color: #ffc012;
+    color: black;
+    border:0 !important;
+    }
+    
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+.remember{
+    color: white;
+    }
+    
+.remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+.login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+.links{
+    color: white;
+    }
+    
+.links a{
+    margin-left: 4px;
+    }
