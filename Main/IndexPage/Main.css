@@ -8,7 +8,7 @@
 
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.2),#18ccba), url("Images/Image-4.jpg");
+    background: linear-gradient(rgba(0,0,0,0.2),#18ccba), url("../Resources/Image-4.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
