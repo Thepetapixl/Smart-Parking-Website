@@ -8,96 +8,100 @@
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
-        <title>Smart Car Parking System</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
+        <title>Smart Car Parking System</title>	
 
-      function drawChart() {
+</head>
 
-        var data = google.visualization.arrayToDataTable([
-          ['Parking Spot', 'Cars Parked'],
-          ['New SOE',     20],
-          ['Old SOE',      5],
-          ['MANET',  8],
-          ['Tuck Shop', 14],
-          ['Sangeetkala Mess',  17]
-        ]);
+<body>
+  <section id="banner">
+   <img id="logo" src="Resources\1.png", alt="Logo of the Website" height="100px" width="240px">
 
-        var options = {
-          title: 'Parking Statistics in MIT ADT University'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
-      }
-</script>
+   <div id="myNav" class="overlay">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     <div class="overlay-content">
+       <a href = "../LoginPage/Login.html" onclick="closeNav()">LogIn</a>
+       <a href = "#banner" onclick="closeNav()">Home</a>
+       <a href = "#info" onclick="closeNav()">About </a>
+       <a href = "#Stats" onclick="closeNav()">Statistics </a> 
+       <a href = "#footer" onclick="closeNav()">Contact Us</a>
 
 
-  </head>
-
-    <body>
-     <section id="banner">
-      <img id="logo" src="Images/Logo-1.JPG", alt="Logo of the Website" height="100px" width="240px">
-
-      <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href = "#banner" onclick="closeNav()">Home</a>
-          <a href = "#" onclick="closeNav()">About </a>
-          <a href = "#Stats" onclick="closeNav()">Statistics </a> 
-          <a href = "#end" onclick="closeNav()">Contact Us</a>
-          <a href = "Login.html" onclick="closeNav()">LogIn</a>
-
-        </div>
-      </div>
-      
-      <span id="span" style="font-size:40px; cursor:pointer" onclick="openNav()">&#9776; </span>
-      
-      <script>
-      function openNav() {
-        document.getElementById("myNav").style.width = "20%";
-      }
-      
-      function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-      }
-      </script>
-
-      <div id="banner-text">
-        <h1>Easy Parking</h1>
-        <p>Just the way you wanted</p>
-            <div class="b_button">
-                <a href="#"><span></span>Park Car</a>
-                <a href="#"><span></span>Drive Out</a>
-            </div>
-      </div>
-      </section> 
-
-  
-  <section id="AboutUs">
-    <div class="title">
-      <p>FEATURES</p>
-      <h1>Why Choose us</h1>
-    </div>
-  </section>
-
-    <section id="Stats">
-      <div id="piechart" style="width: 600px; height: 400px;"></div>
-    </section>
-
-
-
-#fcfcfc
-#6e45fd
-#8a5dfd
-#a676fd
-#c38ffd
-
+     </div>
+   </div>
    
+   <span id="span" style="font-size:40px; cursor:pointer" onclick="openNav()">&#9776; </span>
+   
+   <script>
+   function openNav() {
+     document.getElementById("myNav").style.width = "20%";
+   }
+   
+   function closeNav() {
+     document.getElementById("myNav").style.width = "0%";
+   }
+   </script>
+
+   <div id="banner-text">
+     <h1>Easy Parking</h1>
+     <p>Just the way you wanted</p>
+         <div class="b_button">
+             <a href="../MapsPage/maps.html"><span></span>Park Car</a>
+             <a href="#"><span></span>Drive Out</a>
+         </div>
+   </div>
+   </section> 
+
+    <br>
+<section id="info">
+  <div>
+    <p>About Us</p>
+    <h3>Hello</h3>
+  </div>
+</section>
+
+<section id="stats">
+  <div>
+    <p>Statistics</p>
+    <h3>Hello</h3>
+  </div>
+</section>
+
+
+
+<section id=footer>
+  <div class="title_text">
+    <p>CONTACT US</p>
+    <h3> Visit Our Website Today</h3>
+  </div>
+
+<div class="footer_row">
+<div class="footer_left">
+  <h1>Working Hours</h1>
+  <p><i class="fas fa-clock"></i>Monday to Friday- 7:00 am to 5:00 pm</p>
+  <p> <i class="fas fa-clock"></i>Saturday and Sunday - 7:00 am to 12:00 pm</p>
+
+</div>
+
+<div class="footer_right">
+  <h1> Get In Touch</h1>
+  <p>example@gmail.com<i class="fas fa-paper-plane"></i></p>
+  <p>Pune Mahrashtra<i class="fas fa-map-marker-alt"></i></p>
+  <p>020-2345678<i class="fas fa-phone"></i></p>
+</div>
+</div>
+
+<div class="Social_links">
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-youtube"></i>
+
+</div>
+
+</section>
+  
 
     </body>
 </html>
