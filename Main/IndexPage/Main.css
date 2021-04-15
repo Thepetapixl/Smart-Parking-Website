@@ -221,16 +221,19 @@
     
 }
 
-#info h1{
+#info h2{
     font-size: 50px;
 }
-  
-#stats{
+
+
+#creation{
     text-align: center;
     padding-bottom: 70px;
+    
+
 }
 
-#stats p{
+#creation p{
     font-size: 30px;
     margin: auto;
     color: #009688;
@@ -241,7 +244,7 @@
 
 }
 
-#stats p::after{
+#creation p::after{
     content: '';
     width: 50px;
     height: 35px;
@@ -258,7 +261,7 @@
     
 }
 
-#stats h1{
+#creation h1{
     font-size: 50px;
 }
 
