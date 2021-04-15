@@ -6,10 +6,10 @@ body{
     }
 
 #S_Banner{
-        background: linear-gradient(rgba(255, 255, 255, -0.1),#323636), url("Images/Image-3.jpg");
+        background: linear-gradient(rgba(255, 255, 255, -0.1),#323636), url("../Resources/Image-3.jpg");
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 120vh;
     }
 
 .container{
