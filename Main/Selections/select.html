@@ -1,0 +1,175 @@
+<html>
+
+<head>
+    <script src ="example.js"></script>
+    <title>Select Parking Space</title>
+    <link rel =  "stylesheet" href  ="select.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body onload = "parkingoldsoe(); parkingtuckshop(); parkingmitcorner(); parkingsangeetkala(); parkingamanora(); parkingseasons()">
+
+    <div id="myNav" class="nav_overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href = "../LoginPage/Login.html" onclick="closeNav()">LogIn</a>
+          <a href = "../IndexPage/Main.html" onclick="closeNav()">Home</a>
+          <a href = "#footer" onclick="closeNav()">Contact Us</a>
+    
+    
+        </div>
+      </div>
+      
+      <span id="span" style="font-size:40px; cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+      <script>
+         function openNav() {
+           document.getElementById("myNav").style.width = "20%";
+        }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+
+    <div class="title_text">
+        <p>Select Your Space</p>
+    </div>
+    <div class ="row">
+        <div class = "column" >
+            <div class = "container2" id="image1">
+                <img src = "../Resources/oldsoe.jpg" >
+                <div class ="overlay">
+                    <div class="text1">
+                        <p>Total number of parking slots: <span id="total_oldsoe"></span></p>
+                        <p>Parking slots available: <span id="avl_oldsoe"></span></p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Old Soe</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column" >
+            <div class="container2" id="image2">
+                <img src="../Resources/tuckshop.jpeg">
+                <div class="overlay">
+                    <div class="text1">
+                        <p>Total number of parking slots: <span id="total_tuck"></span></p>
+                        <p>Parking slots available: <span id="avl_tuck"></span></p>
+
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p>Tuck Shop</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column" >
+            <div class="container2" id="image4">
+                <img src="../Resources/sangeetkala.jpg">
+                <div class="overlay">
+                    <div class="text1">
+                        <p>Total number of parking slots: <span id="total_sangeet"></span></p>
+                        <p>Parking slots available: <span id="avl_sangeet"></span></p>
+
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Sangeet Kala</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column" >
+            <div class="container2" id="image4">
+                <img src="../Resources/oldsoe.jpg">
+                <div class="overlay">
+                    <div class="text1">
+                        <p>Total number of parking slots: <span id="total_mitcorner"></span></p>
+                        <p>Parking slots available: <span id="avl_mitcorner"></span></p>
+
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Mit Corner</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column" >
+            <div class="container2" id="image3">
+                <img src="../Resources/amanora.jpg" >
+                <div class="overlay">
+                    <div class="text1">
+                        <p>Total number of parking slots: <span id="total_amanora"></span></p>
+                        <p>Parking slots available: <span id="avl_amanora"></span></p>
+
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Amanora Mall</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="column" >
+            <div class="container2" id="image4">
+                <img src="../Resources/seasons.jpg">
+                <div class="overlay">
+                    <div class="text1">
+                        <p>Total number of parking slots: <span id="total_seasons"></span></p>
+                        <p>Parking slots available: <span id="avl_seasons"></span></p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Seasons Mall</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section id=footer>
+        <div class="title_text">
+          <p>CONTACT US</p>
+          <h3> Visit Our Website Today</h3>
+        </div>
+      
+      <div class="footer_row">
+      <div class="footer_left">
+        <h1>Working Hours</h1>
+        <p><i class="fas fa-clock"></i>Monday to Friday- 7:00 am to 5:00 pm</p>
+        <p> <i class="fas fa-clock"></i>Saturday and Sunday - 7:00 am to 12:00 pm</p>
+      
+      </div>
+      
+      <div class="footer_right">
+        <h1> Get In Touch</h1>
+        <p>example@gmail.com<i class="fas fa-paper-plane"></i></p>
+        <p>Pune Mahrashtra<i class="fas fa-map-marker-alt"></i></p>
+        <p>020-2345678<i class="fas fa-phone"></i></p>
+      </div>
+      </div>
+      
+      <div class="Social_links">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+      
+      </div>
+      
+      </section>
+
+</body>
+
+</html>
