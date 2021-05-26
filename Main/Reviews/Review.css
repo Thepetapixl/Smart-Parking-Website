@@ -20,6 +20,8 @@ h3{
 
 }
 
+/*Navbar Section*/
+
 .overlay {
     height: 100%;
     width: 0;
@@ -60,6 +62,11 @@ h3{
     right: 40px;
     font-size: 60px;
 }
+
+/*Navbar Section Ends*/
+
+
+/*Designing of the Registration Form*/
   
 
 .section-title {
@@ -82,6 +89,11 @@ h3{
 .container1 p{
   font-size: 20px;
 
+}
+
+select {
+  width: 150px;
+  margin: 10px;
 }
 
 input, textarea{
@@ -108,8 +120,10 @@ input, textarea{
     color:black;
   }
 
+  /*Designing of the form Ends*/
 
 
+/*Designing of the Heading Texts*/
 
 .title_text{
     text-align: center;
@@ -148,7 +162,10 @@ input, textarea{
     font-size: 50px;
 }
 
-     
+/*Designing of the Heading Text Ends*/
+
+/*Designing of Footer Starts*/
+
 #footer{
   padding: 40px 0 20px;
   background: #efefef;
@@ -212,5 +229,5 @@ input, textarea{
   transform: translateY(-7px);
 
 }
-
+/*Designing of Footer Starts*/
 
