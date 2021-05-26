@@ -6,6 +6,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+/*Banner Section Starts*/
 #banner {
   background: linear-gradient(rgba(0, 0, 0, 0.2), #18ccba),
     url("../Resources/Image-4.jpg");
@@ -70,6 +72,9 @@
 .b_button a:hover {
   color: #000;
 }
+
+/*Banner Section Ends*/
+
 
 #logo {
   position: absolute;
@@ -163,80 +168,6 @@
   font-size: 60px;
 }
 
-#cont {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#info {
-  text-align: center;
-  padding-bottom: 70px;
-}
-
-#info p {
-  font-size: 30px;
-  margin: auto;
-  color: #009688;
-  font-weight: bold;
-  z-index: 1;
-  position: relative;
-  display: inline-block;
-}
-
-#info p::after {
-  content: "";
-  width: 50px;
-  height: 35px;
-  background: linear-gradient(#019587, #fff);
-  position: absolute;
-  top: -20px;
-  right: 0;
-  left: 0;
-  z-index: -1;
-  transform: rotate(4deg);
-  border-top-left-radius: 45px;
-  border-bottom-right-radius: 45px;
-}
-
-#info h2 {
-  font-size: 50px;
-}
-
-#creation {
-  text-align: center;
-  padding-bottom: 70px;
-}
-
-#creation p {
-  font-size: 30px;
-  margin: auto;
-  color: #009688;
-  font-weight: bold;
-  z-index: 1;
-  position: relative;
-  display: inline-block;
-}
-
-#creation p::after {
-  content: "";
-  width: 50px;
-  height: 35px;
-  background: linear-gradient(#019587, #fff);
-  position: absolute;
-  top: -20px;
-  right: 0;
-  left: 0;
-  z-index: -1;
-  transform: rotate(4deg);
-  border-top-left-radius: 45px;
-  border-bottom-right-radius: 45px;
-}
-
-#creation h1 {
-  font-size: 50px;
-}
 
 .title_text {
   text-align: center;
@@ -361,6 +292,10 @@
   margin: -60px 0px 0px 50px;
 }
 
+/*Features Section Ends*/
+
+/*Team Section Starts*/
+
  #Team{
     width: 100%;
     padding: 70px 0;
@@ -462,8 +397,11 @@
 .row2{
     display: flex;
 }
+
+/*Team Section Ends*/
  
 
+/*Footer Section Starts*/
 
 #footer {
   padding: 50px 0 20px;
@@ -525,3 +463,5 @@
   color: #fff;
   transform: translateY(-7px);
 }
+
+/*Footer Section Ends*/
