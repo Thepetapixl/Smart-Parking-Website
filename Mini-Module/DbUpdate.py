@@ -41,22 +41,21 @@ def my_update_to_database(user_name):
     print("The nearest parking is: {}m away {}".format(min / 100, value))
 
     query = 'UPDATE Users SET Parking_Allotted = "{}" where Name = "{}" '.format(value, name)
-    query_two = 'update Parking_Slots set Available = 1 where Parking_Slot = "{}"'.format(value)
+    query_two = 'Update Parking_Slots set Available = 1 where Parking_Slot = "{}"'.format(value)
 
     mycursor.execute(query)
+    
+    conn.commit()
+
     mycursor.execute(query_two)
 
     conn.commit()
 
     mycursor.execute("SELECT * FROM Parking_Slots")
-    mycursor.execute('select * from users')
+    mycursor.execute('Select * from Users')
 
-    my_new_result = mycursor.fetchall()
+    myresult = mycursor.fetchall()
 
-    print(my_new_result)
-
-    print(myresult[0][1])
-    
     for x in myresult:
         print(x)
         
